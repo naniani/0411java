@@ -18,7 +18,6 @@ public class Ajax01Servlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int y = 2;
-        int x = 1;
         String uname = req.getParameter("uname");
         System.out.println(uname);
         resp.getWriter().println(uname);
